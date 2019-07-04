@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ partialCached "header.html" . }}
 
 {{ if not .IsHome }}
 <header class="page-header">
@@ -40,4 +40,4 @@
 </footer>
 {{ end }}
 
-{{ partial "footer.html" . }}
+{{ partialCached "footer.html" . }}
